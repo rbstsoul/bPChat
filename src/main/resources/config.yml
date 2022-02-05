@@ -1,0 +1,24 @@
+#made by #blazePop team. Creator: bloone#2786
+#If you want to get help, you can contact with bloone#2786 on Discord.
+
+Settings:
+  prefix: "&8[&e&lSERVER&8]"
+  Join:
+    broadcastMessage: true
+    sendActionBarMessageToPlayer: true
+  Quit:
+    broadcastMessage: true
+  Mute:
+    defaultReason: "&fNone"
+
+Messages:
+  Join:
+    message: "&8[&a+&8] &fWelcome, welcome &e%player%&f! How are you? We were waiting for you!"
+    actionBarMessage: "&fWelcome, &e%player%&f!"
+  Quit:
+    message: "&8[&c-&8] &e%player% &fleft &c:( &fCome back soon!"
+  Reload:
+    message1: "&7Reloading..."
+    message2: "&aReload successful!"
+
+Data: {}

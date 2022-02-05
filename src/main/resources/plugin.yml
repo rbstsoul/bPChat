@@ -1,0 +1,17 @@
+name: bPChat
+version: '${project.version}'
+main: me.bloone.bPChat
+api-version: 1.18
+authors: [ bloone ]
+description: A simple chat plugin.
+commands:
+  bpchat:
+    description: Main command.
+    usage: /<command>
+    aliases: [chat]
+  mute:
+    description: Mute someone. Silent.
+    usage: /<command> <online player> <not required, reason>
+  unmute:
+    description: Unmute someone.
+    usage: /<command> <player>
