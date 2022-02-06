@@ -20,5 +20,6 @@ Messages:
   Reload:
     message1: "&7Reloading..."
     message2: "&aReload successful!"
+  noPermission: "&cYou don't have enough permission."
 
 Data: {}

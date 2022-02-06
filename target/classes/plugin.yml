@@ -15,3 +15,23 @@ commands:
   unmute:
     description: Unmute someone.
     usage: /<command> <player>
+
+permissions:
+  bpchat.*:
+    description: All permissions. You are the power.
+    default: op
+    children:
+      bpchat.command.main: true
+      bpchat.command.reload: true
+  bpchat.command.main:
+    description: Allows you to use /bpchat command.
+    default: op
+  bpchat.command.reload:
+    description: Allows you to use /bpchat reload command.
+    default: op
+  bpchat.command.mute:
+    description: Allows you to use /mute command. Silent, please.
+    default: op
+  bpchat.command.unmute:
+    description: Allows you to use /unmute command. Ok, now you can speak.
+    default: op
